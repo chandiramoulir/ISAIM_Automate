@@ -1,0 +1,1776 @@
+01/18/2018 10:48:38 PM Changing directory
+01/18/2018 10:48:38 PM Loading the input excel file
+01/18/2018 10:48:38 PM searching schema for (ns0:UtilsDvceERPSmrtMtrCrteReqMsg)
+01/18/2018 10:48:38 PM (' ', http://sap.com/xi/IS-U/Global2), found as: <Complex:0x53c3438L name="UtilsDvceERPSmrtMtrCrteReqMsg" />
+01/18/2018 10:48:38 PM found (ns0:UtilsDvceERPSmrtMtrCrteReqMsg) as (<Complex:0x53c3438L name="UtilsDvceERPSmrtMtrCrteReqMsg" />)
+01/18/2018 10:48:38 PM Element:0x4efaf98L, resolving: (u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x5c32a48L"
+   ref[] = 
+      "BusinessDocumentMessageID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4efaf98L name="ID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4efa978L name="BusinessDocumentMessageID" />
+01/18/2018 10:48:38 PM Element:0x4efaa90L, resolving: (u'UUID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x538fb48L"
+   ref[] = 
+      "UUID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4efaa90L name="UUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'UUID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x3d56828L name="UUID" />
+01/18/2018 10:48:38 PM Element:0x4efaa58L, resolving: (u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x538f688L"
+   ref[] = 
+      "BusinessDocumentMessageID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4efaa58L name="ReferenceID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4efa978L name="BusinessDocumentMessageID" />
+01/18/2018 10:48:38 PM Element:0x4efaa20L, resolving: (u'UUID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x538f208L"
+   ref[] = 
+      "UUID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4efaa20L name="ReferenceUUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'UUID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x3d56828L name="UUID" />
+01/18/2018 10:48:38 PM Element:0x4efaf28L, resolving: (u'dateTime', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x538f8c8L"
+   ref[] = 
+      "dateTime",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4efaf28L name="CreationDateTime" type="(u'dateTime', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM TypeQuery:0x538f8c8L, found builtin (dateTime)
+01/18/2018 10:48:38 PM Element:0x4efad30L, resolving: (u'boolean', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x538f8c8L"
+   ref[] = 
+      "boolean",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4efad30L name="TestDataIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM TypeQuery:0x538f8c8L, found builtin (boolean)
+01/18/2018 10:48:38 PM Element:0x4efacc0L, resolving: (u'boolean', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x538f8c8L"
+   ref[] = 
+      "boolean",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4efacc0L name="ReconciliationIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM TypeQuery:0x538f8c8L, found builtin (boolean)
+01/18/2018 10:48:38 PM Element:0x4c8e400L, resolving: (u'token', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x538f8c8L"
+   ref[] = 
+      "token",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4c8e400L name="SenderBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM TypeQuery:0x538f8c8L, found builtin (token)
+01/18/2018 10:48:38 PM Element:0x4c8e470L, resolving: (u'token', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x538f8c8L"
+   ref[] = 
+      "token",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4c8e470L name="RecipientBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM TypeQuery:0x538f8c8L, found builtin (token)
+01/18/2018 10:48:38 PM Element:0x4c8e438L, resolving: (u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x538fd88L"
+   ref[] = 
+      "BusinessDocumentMessageHeaderParty",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4c8e438L name="SenderParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53a9128L name="BusinessDocumentMessageHeaderParty" />
+01/18/2018 10:48:38 PM Element:0x53a9550L, resolving: (u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x538fcc8L"
+   ref[] = 
+      "PartyInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53a9550L name="InternalID" type="(u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53a9390L name="PartyInternalID" />
+01/18/2018 10:48:38 PM Element:0x53a95c0L, resolving: (u'PartyStandardID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x538fa48L"
+   ref[] = 
+      "PartyStandardID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53a95c0L name="StandardID" type="(u'PartyStandardID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'PartyStandardID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53a96a0L name="PartyStandardID" />
+01/18/2018 10:48:38 PM Element:0x53a9630L, resolving: (u'BusinessDocumentMessageHeaderPartyContactPerson', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x538fa48L"
+   ref[] = 
+      "BusinessDocumentMessageHeaderPartyContactPerson",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53a9630L name="ContactPerson" type="(u'BusinessDocumentMessageHeaderPartyContactPerson', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'BusinessDocumentMessageHeaderPartyContactPerson', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53a97b8L name="BusinessDocumentMessageHeaderPartyContactPerson" />
+01/18/2018 10:48:38 PM Element:0x53a9b00L, resolving: (u'ContactPersonInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530fd88L"
+   ref[] = 
+      "ContactPersonInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53a9b00L name="InternalID" type="(u'ContactPersonInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'ContactPersonInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53a99b0L name="ContactPersonInternalID" />
+01/18/2018 10:48:38 PM Element:0x53a9b70L, resolving: (u'string', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530ff88L"
+   ref[] = 
+      "string",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x53a9b70L name="OrganisationFormattedName" type="(u'string', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM TypeQuery:0x530ff88L, found builtin (string)
+01/18/2018 10:48:38 PM Element:0x53a9be0L, resolving: (u'string', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530fd48L"
+   ref[] = 
+      "string",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x53a9be0L name="PersonFormattedName" type="(u'string', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM TypeQuery:0x530fd48L, found builtin (string)
+01/18/2018 10:48:38 PM Element:0x53a9c50L, resolving: (u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530fd48L"
+   ref[] = 
+      "PhoneNumber",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53a9c50L name="PhoneNumber" type="(u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53a9da0L name="PhoneNumber" />
+01/18/2018 10:48:38 PM Element:0x53a9cc0L, resolving: (u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530fd48L"
+   ref[] = 
+      "PhoneNumber",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53a9cc0L name="FaxNumber" type="(u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53a9da0L name="PhoneNumber" />
+01/18/2018 10:48:38 PM Element:0x53a9d30L, resolving: (u'EmailURI', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530fd48L"
+   ref[] = 
+      "EmailURI",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53a9d30L name="EmailURI" type="(u'EmailURI', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'EmailURI', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53d2358L name="EmailURI" />
+01/18/2018 10:48:38 PM Element:0x4c8e550L, resolving: (u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530fd48L"
+   ref[] = 
+      "BusinessDocumentMessageHeaderParty",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4c8e550L name="RecipientParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53a9128L name="BusinessDocumentMessageHeaderParty" />
+01/18/2018 10:48:38 PM Element:0x4908438L, resolving: (u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530fd48L"
+   ref[] = 
+      "BusinessScope",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4908438L name="BusinessScope" type="(u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'BusinessScope', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53d2470L name="BusinessScope" />
+01/18/2018 10:48:38 PM Element:0x53c3898L, resolving: (u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530f8c8L"
+   ref[] = 
+      "UtilitiesDeviceID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53c3898L name="ID" type="(u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x539c588L name="UtilitiesDeviceID" />
+01/18/2018 10:48:38 PM Element:0x53c3908L, resolving: (u'date', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530fb88L"
+   ref[] = 
+      "date",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x53c3908L name="StartDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM TypeQuery:0x530fb88L, found builtin (date)
+01/18/2018 10:48:38 PM Element:0x53c3978L, resolving: (u'date', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530fb88L"
+   ref[] = 
+      "date",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x53c3978L name="EndDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM TypeQuery:0x530fb88L, found builtin (date)
+01/18/2018 10:48:38 PM Element:0x53c39e8L, resolving: (u'token', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530fb88L"
+   ref[] = 
+      "token",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x53c39e8L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM TypeQuery:0x530fb88L, found builtin (token)
+01/18/2018 10:48:38 PM Element:0x53c3a58L, resolving: (u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530fb88L"
+   ref[] = 
+      "ProductInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53c3a58L name="MaterialID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53c37b8L name="ProductInternalID" />
+01/18/2018 10:48:38 PM Element:0x53c3ac8L, resolving: (u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x530f288L"
+   ref[] = 
+      "ProductStandardID_V1",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53c3ac8L name="ProductUniqueItemID" type="(u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53c3c18L name="ProductStandardID_V1" />
+01/18/2018 10:48:38 PM Element:0x53c3b38L, resolving: (u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x5ca6dc8L"
+   ref[] = 
+      "UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53c3b38L name="IndividualMaterialManufacturerInformation" type="(u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53c3d30L name="UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo" />
+01/18/2018 10:48:38 PM Element:0x53ce128L, resolving: (u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x5ca69c8L"
+   ref[] = 
+      "PartyInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53ce128L name="PartyInternalID" type="(u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53a9390L name="PartyInternalID" />
+01/18/2018 10:48:38 PM Element:0x53ce198L, resolving: (u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x5ca6cc8L"
+   ref[] = 
+      "ProductInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53ce198L name="PartNumberID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53c37b8L name="ProductInternalID" />
+01/18/2018 10:48:38 PM Element:0x53ce208L, resolving: (u'token', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x5ca6048L"
+   ref[] = 
+      "token",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x53ce208L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM TypeQuery:0x5ca6048L, found builtin (token)
+01/18/2018 10:48:38 PM Element:0x53c3ba8L, resolving: (u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x5ca6048L"
+   ref[] = 
+      "UtilsDvceERPSmrtMtrCrteReqSmrtMtr",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53c3ba8L name="SmartMeter" type="(u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x53c3f28L name="UtilsDvceERPSmrtMtrCrteReqSmrtMtr" />
+01/18/2018 10:48:38 PM Element:0x53ce358L, resolving: (u'UtilitiesAdvancedMeteringSystemID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x5ca61c8L"
+   ref[] = 
+      "UtilitiesAdvancedMeteringSystemID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x53ce358L name="UtilitiesAdvancedMeteringSystemID" type="(u'UtilitiesAdvancedMeteringSystemID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+01/18/2018 10:48:38 PM (u'UtilitiesAdvancedMeteringSystemID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x539c860L name="UtilitiesAdvancedMeteringSystemID" />
+01/18/2018 10:48:38 PM ns0:UtilsDvceERPSmrtMtrCrteReqMsg created: 40 (ms)
+01/18/2018 10:48:38 PM (u'UtilitiesDeviceERPSmartMeterCreateRequest', u'http://sap.com/xi/SAPGlobal20/Global'), found as: <Element:0x4c6e860L name="UtilitiesDeviceERPSmartMeterCreateRequest" type="(u'UtilsDvceERPSmrtMtrCrteReqMsg', u'http://sap.com/xi/IS-U/Global2')" />
+01/18/2018 10:48:38 PM (u'UtilitiesDeviceERPSmartMeterCreateRequest', u'http://sap.com/xi/SAPGlobal20/Global'), found as: <Element:0x4c6e860L name="UtilitiesDeviceERPSmartMeterCreateRequest" type="(u'UtilsDvceERPSmrtMtrCrteReqMsg', u'http://sap.com/xi/IS-U/Global2')" />
+01/18/2018 10:48:38 PM processing:
+(Content){
+   tag = "MessageHeader"
+   value = "<UUID>1516295918855</UUID>
+<CreationDateTime>2018-01-18T17:18:38Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+"
+   real = <Complex:0x4efabe0L name="BusinessDocumentMessageHeader">
+   <Sequence:0x4efae80L>
+      <Element:0x4efaf98L name="ID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4efaa90L name="UUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4efaa58L name="ReferenceID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4efaa20L name="ReferenceUUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4efaf28L name="CreationDateTime" type="(u'dateTime', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4efad30L name="TestDataIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4efacc0L name="ReconciliationIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4c8e400L name="SenderBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4c8e470L name="RecipientBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4c8e438L name="SenderParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4c8e550L name="RecipientParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4908438L name="BusinessScope" type="(u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x53c36d8L name="MessageHeader" type="(u'BusinessDocumentMessageHeader', u'http://sap.com/xi/IS-U/Global2')" />
+ }
+01/18/2018 10:48:38 PM starting content:
+(Content){
+   tag = "MessageHeader"
+   value = "<UUID>1516295918855</UUID>
+<CreationDateTime>2018-01-18T17:18:38Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+"
+   real = <Complex:0x4efabe0L name="BusinessDocumentMessageHeader">
+   <Sequence:0x4efae80L>
+      <Element:0x4efaf98L name="ID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4efaa90L name="UUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4efaa58L name="ReferenceID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4efaa20L name="ReferenceUUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4efaf28L name="CreationDateTime" type="(u'dateTime', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4efad30L name="TestDataIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4efacc0L name="ReconciliationIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4c8e400L name="SenderBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4c8e470L name="RecipientBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4c8e438L name="SenderParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4c8e550L name="RecipientParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4908438L name="BusinessScope" type="(u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x53c36d8L name="MessageHeader" type="(u'BusinessDocumentMessageHeader', u'http://sap.com/xi/IS-U/Global2')" />
+ }
+01/18/2018 10:48:38 PM push: (<suds.resolver.Frame instance at 0x0000000005108C08>)
+<suds.resolver.Frame instance at 0x0000000005108C08>
+01/18/2018 10:48:38 PM created - node:
+<MessageHeader/>
+01/18/2018 10:48:38 PM ending content:
+(Content){
+   tag = "MessageHeader"
+   value = "<UUID>1516295918855</UUID>
+<CreationDateTime>2018-01-18T17:18:38Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+"
+   real = <Complex:0x4efabe0L name="BusinessDocumentMessageHeader">
+   <Sequence:0x4efae80L>
+      <Element:0x4efaf98L name="ID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4efaa90L name="UUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4efaa58L name="ReferenceID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4efaa20L name="ReferenceUUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4efaf28L name="CreationDateTime" type="(u'dateTime', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4efad30L name="TestDataIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4efacc0L name="ReconciliationIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4c8e400L name="SenderBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4c8e470L name="RecipientBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4c8e438L name="SenderParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4c8e550L name="RecipientParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4908438L name="BusinessScope" type="(u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x53c36d8L name="MessageHeader" type="(u'BusinessDocumentMessageHeader', u'http://sap.com/xi/IS-U/Global2')" />
+   ancestry[] = <empty>
+ }
+01/18/2018 10:48:38 PM pop: (<suds.resolver.Frame instance at 0x0000000005108C08>)
+
+01/18/2018 10:48:38 PM processing:
+(Content){
+   tag = "UtilitiesDevice"
+   value = "<ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+"
+   real = <Complex:0x53c35f8L name="UtilsDvceERPSmrtMtrCrteReqUtilsDvce">
+   <Sequence:0x53c37f0L>
+      <Element:0x53c3898L name="ID" type="(u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x53c3908L name="StartDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x53c3978L name="EndDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x53c39e8L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x53c3a58L name="MaterialID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x53c3ac8L name="ProductUniqueItemID" type="(u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x53c3b38L name="IndividualMaterialManufacturerInformation" type="(u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x53c3ba8L name="SmartMeter" type="(u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x53c3748L name="UtilitiesDevice" type="(u'UtilsDvceERPSmrtMtrCrteReqUtilsDvce', u'http://sap.com/xi/IS-U/Global2')" />
+ }
+01/18/2018 10:48:38 PM starting content:
+(Content){
+   tag = "UtilitiesDevice"
+   value = "<ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+"
+   real = <Complex:0x53c35f8L name="UtilsDvceERPSmrtMtrCrteReqUtilsDvce">
+   <Sequence:0x53c37f0L>
+      <Element:0x53c3898L name="ID" type="(u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x53c3908L name="StartDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x53c3978L name="EndDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x53c39e8L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x53c3a58L name="MaterialID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x53c3ac8L name="ProductUniqueItemID" type="(u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x53c3b38L name="IndividualMaterialManufacturerInformation" type="(u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x53c3ba8L name="SmartMeter" type="(u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x53c3748L name="UtilitiesDevice" type="(u'UtilsDvceERPSmrtMtrCrteReqUtilsDvce', u'http://sap.com/xi/IS-U/Global2')" />
+ }
+01/18/2018 10:48:38 PM push: (<suds.resolver.Frame instance at 0x0000000005108DC8>)
+<suds.resolver.Frame instance at 0x0000000005108DC8>
+01/18/2018 10:48:38 PM created - node:
+<UtilitiesDevice/>
+01/18/2018 10:48:38 PM ending content:
+(Content){
+   tag = "UtilitiesDevice"
+   value = "<ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+"
+   real = <Complex:0x53c35f8L name="UtilsDvceERPSmrtMtrCrteReqUtilsDvce">
+   <Sequence:0x53c37f0L>
+      <Element:0x53c3898L name="ID" type="(u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x53c3908L name="StartDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x53c3978L name="EndDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x53c39e8L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x53c3a58L name="MaterialID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x53c3ac8L name="ProductUniqueItemID" type="(u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x53c3b38L name="IndividualMaterialManufacturerInformation" type="(u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x53c3ba8L name="SmartMeter" type="(u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x53c3748L name="UtilitiesDevice" type="(u'UtilsDvceERPSmrtMtrCrteReqUtilsDvce', u'http://sap.com/xi/IS-U/Global2')" />
+   ancestry[] = <empty>
+ }
+01/18/2018 10:48:38 PM pop: (<suds.resolver.Frame instance at 0x0000000005108DC8>)
+
+01/18/2018 10:48:38 PM message for 'UtilitiesDeviceERPSmartMeterCreateRequest_In' created: 18 (ms)
+01/18/2018 10:48:38 PM sending to (http://ral-skeena.itronhdc.com:8000/V1/IEESAPAdapter)
+message:
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:ns0="http://sap.com/xi/SAPGlobal20/Global" xmlns:ns1="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <ns1:Body>
+      <ns0:UtilitiesDeviceERPSmartMeterCreateRequest>
+         <MessageHeader><UUID>1516295918855</UUID>
+<CreationDateTime>2018-01-18T17:18:38Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+</MessageHeader>
+         <UtilitiesDevice><ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+</UtilitiesDevice>
+      </ns0:UtilitiesDeviceERPSmartMeterCreateRequest>
+   </ns1:Body>
+</SOAP-ENV:Envelope>
+01/18/2018 10:48:38 PM headers = {'SOAPAction': u'"UtilitiesDeviceERPSmartMeterCreateRequest_In"', 'Content-Type': 'text/xml; charset=utf-8'}
+01/18/2018 10:48:38 PM sending:
+URL:http://ral-skeena.itronhdc.com:8000/V1/IEESAPAdapter
+HEADERS: {'SOAPAction': u'"UtilitiesDeviceERPSmartMeterCreateRequest_In"', 'Content-Type': 'text/xml; charset=utf-8', 'Content-type': 'text/xml; charset=utf-8', 'Soapaction': u'"UtilitiesDeviceERPSmartMeterCreateRequest_In"'}
+MESSAGE:
+<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:ns0="http://sap.com/xi/SAPGlobal20/Global" xmlns:ns1="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><ns1:Body><ns0:UtilitiesDeviceERPSmartMeterCreateRequest><MessageHeader><UUID>1516295918855</UUID>
+<CreationDateTime>2018-01-18T17:18:38Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+</MessageHeader><UtilitiesDevice><ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+</UtilitiesDevice></ns0:UtilitiesDeviceERPSmartMeterCreateRequest></ns1:Body></SOAP-ENV:Envelope>
+01/18/2018 10:48:39 PM received:
+CODE: 200
+HEADERS: {'date': 'Thu, 18 Jan 2018 17:18:39 GMT', 'content-length': '0', 'connection': 'close', 'server': 'Microsoft-HTTPAPI/2.0'}
+MESSAGE:
+
+01/18/2018 10:48:39 PM http succeeded:
+
+01/18/2018 10:48:39 PM method 'UtilitiesDeviceERPSmartMeterCreateRequest_In' invoked: 797 (ms)
+02/17/2018 05:39:20 PM Changing directory
+02/17/2018 05:39:20 PM Loading the input excel file
+02/17/2018 05:39:20 PM searching schema for (ns0:UtilsDvceERPSmrtMtrCrteReqMsg)
+02/17/2018 05:39:20 PM ('UtilsDvceERPSmrtMtrCrteReqMsg', http://sap.com/xi/IS-U/Global2), found as: <Complex:0x496c6a0L name="UtilsDvceERPSmrtMtrCrteReqMsg" />
+02/17/2018 05:39:20 PM found (ns0:UtilsDvceERPSmrtMtrCrteReqMsg) as (<Complex:0x496c6a0L name="UtilsDvceERPSmrtMtrCrteReqMsg" />)
+02/17/2018 05:39:20 PM Element:0x42f8fd0L, resolving: (u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x508f688L"
+   ref[] = 
+      "BusinessDocumentMessageID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x42f8fd0L name="ID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x42f8ba8L name="BusinessDocumentMessageID" />
+02/17/2018 05:39:20 PM Element:0x42f8dd8L, resolving: (u'UUID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x48b6848L"
+   ref[] = 
+      "UUID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x42f8dd8L name="UUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'UUID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4976278L name="UUID" />
+02/17/2018 05:39:20 PM Element:0x42f8be0L, resolving: (u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x48b6b08L"
+   ref[] = 
+      "BusinessDocumentMessageID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x42f8be0L name="ReferenceID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x42f8ba8L name="BusinessDocumentMessageID" />
+02/17/2018 05:39:20 PM Element:0x40225c0L, resolving: (u'UUID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x48b6808L"
+   ref[] = 
+      "UUID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x40225c0L name="ReferenceUUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'UUID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4976278L name="UUID" />
+02/17/2018 05:39:20 PM Element:0x4022630L, resolving: (u'dateTime', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x48b6cc8L"
+   ref[] = 
+      "dateTime",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4022630L name="CreationDateTime" type="(u'dateTime', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM TypeQuery:0x48b6cc8L, found builtin (dateTime)
+02/17/2018 05:39:20 PM Element:0x4022748L, resolving: (u'boolean', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x48b6cc8L"
+   ref[] = 
+      "boolean",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4022748L name="TestDataIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM TypeQuery:0x48b6cc8L, found builtin (boolean)
+02/17/2018 05:39:20 PM Element:0x4022710L, resolving: (u'boolean', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x48b6cc8L"
+   ref[] = 
+      "boolean",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4022710L name="ReconciliationIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM TypeQuery:0x48b6cc8L, found builtin (boolean)
+02/17/2018 05:39:20 PM Element:0x4976048L, resolving: (u'token', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x48b6cc8L"
+   ref[] = 
+      "token",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4976048L name="SenderBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM TypeQuery:0x48b6cc8L, found builtin (token)
+02/17/2018 05:39:20 PM Element:0x49760b8L, resolving: (u'token', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x48b6cc8L"
+   ref[] = 
+      "token",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x49760b8L name="RecipientBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM TypeQuery:0x48b6cc8L, found builtin (token)
+02/17/2018 05:39:20 PM Element:0x4976128L, resolving: (u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x48b6d48L"
+   ref[] = 
+      "BusinessDocumentMessageHeaderParty",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4976128L name="SenderParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4976390L name="BusinessDocumentMessageHeaderParty" />
+02/17/2018 05:39:20 PM Element:0x49767b8L, resolving: (u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1188L"
+   ref[] = 
+      "PartyInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x49767b8L name="InternalID" type="(u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x49765f8L name="PartyInternalID" />
+02/17/2018 05:39:20 PM Element:0x4976828L, resolving: (u'PartyStandardID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b15c8L"
+   ref[] = 
+      "PartyStandardID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4976828L name="StandardID" type="(u'PartyStandardID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'PartyStandardID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4976908L name="PartyStandardID" />
+02/17/2018 05:39:20 PM Element:0x4976898L, resolving: (u'BusinessDocumentMessageHeaderPartyContactPerson', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b15c8L"
+   ref[] = 
+      "BusinessDocumentMessageHeaderPartyContactPerson",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4976898L name="ContactPerson" type="(u'BusinessDocumentMessageHeaderPartyContactPerson', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'BusinessDocumentMessageHeaderPartyContactPerson', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4976a20L name="BusinessDocumentMessageHeaderPartyContactPerson" />
+02/17/2018 05:39:20 PM Element:0x4976d68L, resolving: (u'ContactPersonInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1f88L"
+   ref[] = 
+      "ContactPersonInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4976d68L name="InternalID" type="(u'ContactPersonInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'ContactPersonInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4976c18L name="ContactPersonInternalID" />
+02/17/2018 05:39:20 PM Element:0x4976dd8L, resolving: (u'string', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1cc8L"
+   ref[] = 
+      "string",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4976dd8L name="OrganisationFormattedName" type="(u'string', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM TypeQuery:0x49b1cc8L, found builtin (string)
+02/17/2018 05:39:20 PM Element:0x4976e48L, resolving: (u'string', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1308L"
+   ref[] = 
+      "string",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4976e48L name="PersonFormattedName" type="(u'string', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM TypeQuery:0x49b1308L, found builtin (string)
+02/17/2018 05:39:20 PM Element:0x4976eb8L, resolving: (u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1308L"
+   ref[] = 
+      "PhoneNumber",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4976eb8L name="PhoneNumber" type="(u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4994048L name="PhoneNumber" />
+02/17/2018 05:39:20 PM Element:0x4976f28L, resolving: (u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1308L"
+   ref[] = 
+      "PhoneNumber",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4976f28L name="FaxNumber" type="(u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4994048L name="PhoneNumber" />
+02/17/2018 05:39:20 PM Element:0x4976f98L, resolving: (u'EmailURI', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1308L"
+   ref[] = 
+      "EmailURI",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4976f98L name="EmailURI" type="(u'EmailURI', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'EmailURI', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x49945c0L name="EmailURI" />
+02/17/2018 05:39:20 PM Element:0x4976198L, resolving: (u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1308L"
+   ref[] = 
+      "BusinessDocumentMessageHeaderParty",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4976198L name="RecipientParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4976390L name="BusinessDocumentMessageHeaderParty" />
+02/17/2018 05:39:20 PM Element:0x4976208L, resolving: (u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1308L"
+   ref[] = 
+      "BusinessScope",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4976208L name="BusinessScope" type="(u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'BusinessScope', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x49946d8L name="BusinessScope" />
+02/17/2018 05:39:20 PM Element:0x496cb00L, resolving: (u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1908L"
+   ref[] = 
+      "UtilitiesDeviceID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x496cb00L name="ID" type="(u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x49967f0L name="UtilitiesDeviceID" />
+02/17/2018 05:39:20 PM Element:0x496cb70L, resolving: (u'date', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1b08L"
+   ref[] = 
+      "date",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x496cb70L name="StartDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM TypeQuery:0x49b1b08L, found builtin (date)
+02/17/2018 05:39:20 PM Element:0x496cbe0L, resolving: (u'date', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1b08L"
+   ref[] = 
+      "date",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x496cbe0L name="EndDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM TypeQuery:0x49b1b08L, found builtin (date)
+02/17/2018 05:39:20 PM Element:0x496cc50L, resolving: (u'token', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1b08L"
+   ref[] = 
+      "token",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x496cc50L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM TypeQuery:0x49b1b08L, found builtin (token)
+02/17/2018 05:39:20 PM Element:0x496ccc0L, resolving: (u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x49b1b08L"
+   ref[] = 
+      "ProductInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x496ccc0L name="MaterialID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x496ca20L name="ProductInternalID" />
+02/17/2018 05:39:20 PM Element:0x496cd30L, resolving: (u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4620348L"
+   ref[] = 
+      "ProductStandardID_V1",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x496cd30L name="ProductUniqueItemID" type="(u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x496ce80L name="ProductStandardID_V1" />
+02/17/2018 05:39:20 PM Element:0x496cda0L, resolving: (u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x46202c8L"
+   ref[] = 
+      "UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x496cda0L name="IndividualMaterialManufacturerInformation" type="(u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x496cf98L name="UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo" />
+02/17/2018 05:39:20 PM Element:0x496d390L, resolving: (u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4620588L"
+   ref[] = 
+      "PartyInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x496d390L name="PartyInternalID" type="(u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x49765f8L name="PartyInternalID" />
+02/17/2018 05:39:20 PM Element:0x496d400L, resolving: (u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x46207c8L"
+   ref[] = 
+      "ProductInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x496d400L name="PartNumberID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x496ca20L name="ProductInternalID" />
+02/17/2018 05:39:20 PM Element:0x496d470L, resolving: (u'token', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4620bc8L"
+   ref[] = 
+      "token",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x496d470L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM TypeQuery:0x4620bc8L, found builtin (token)
+02/17/2018 05:39:20 PM Element:0x496ce10L, resolving: (u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4620bc8L"
+   ref[] = 
+      "UtilsDvceERPSmrtMtrCrteReqSmrtMtr",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x496ce10L name="SmartMeter" type="(u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x496d1d0L name="UtilsDvceERPSmrtMtrCrteReqSmrtMtr" />
+02/17/2018 05:39:20 PM Element:0x496d5c0L, resolving: (u'UtilitiesAdvancedMeteringSystemID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4620748L"
+   ref[] = 
+      "UtilitiesAdvancedMeteringSystemID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x496d5c0L name="UtilitiesAdvancedMeteringSystemID" type="(u'UtilitiesAdvancedMeteringSystemID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 05:39:20 PM (u'UtilitiesAdvancedMeteringSystemID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4996ac8L name="UtilitiesAdvancedMeteringSystemID" />
+02/17/2018 05:39:20 PM ns0:UtilsDvceERPSmrtMtrCrteReqMsg created: 36 (ms)
+02/17/2018 05:39:20 PM (u'UtilitiesDeviceERPSmartMeterCreateRequest', u'http://sap.com/xi/SAPGlobal20/Global'), found as: <Element:0x3ffda20L name="UtilitiesDeviceERPSmartMeterCreateRequest" type="(u'UtilsDvceERPSmrtMtrCrteReqMsg', u'http://sap.com/xi/IS-U/Global2')" />
+02/17/2018 05:39:20 PM (u'UtilitiesDeviceERPSmartMeterCreateRequest', u'http://sap.com/xi/SAPGlobal20/Global'), found as: <Element:0x3ffda20L name="UtilitiesDeviceERPSmartMeterCreateRequest" type="(u'UtilsDvceERPSmrtMtrCrteReqMsg', u'http://sap.com/xi/IS-U/Global2')" />
+02/17/2018 05:39:20 PM processing:
+(Content){
+   tag = "MessageHeader"
+   value = "<UUID>1518869360216</UUID>
+<CreationDateTime>2018-02-17T12:09:20Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+"
+   real = <Complex:0x42f8c18L name="BusinessDocumentMessageHeader">
+   <Sequence:0x42f8eb8L>
+      <Element:0x42f8fd0L name="ID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x42f8dd8L name="UUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x42f8be0L name="ReferenceID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x40225c0L name="ReferenceUUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4022630L name="CreationDateTime" type="(u'dateTime', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4022748L name="TestDataIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4022710L name="ReconciliationIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4976048L name="SenderBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x49760b8L name="RecipientBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4976128L name="SenderParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4976198L name="RecipientParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4976208L name="BusinessScope" type="(u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x496c940L name="MessageHeader" type="(u'BusinessDocumentMessageHeader', u'http://sap.com/xi/IS-U/Global2')" />
+ }
+02/17/2018 05:39:20 PM starting content:
+(Content){
+   tag = "MessageHeader"
+   value = "<UUID>1518869360216</UUID>
+<CreationDateTime>2018-02-17T12:09:20Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+"
+   real = <Complex:0x42f8c18L name="BusinessDocumentMessageHeader">
+   <Sequence:0x42f8eb8L>
+      <Element:0x42f8fd0L name="ID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x42f8dd8L name="UUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x42f8be0L name="ReferenceID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x40225c0L name="ReferenceUUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4022630L name="CreationDateTime" type="(u'dateTime', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4022748L name="TestDataIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4022710L name="ReconciliationIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4976048L name="SenderBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x49760b8L name="RecipientBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4976128L name="SenderParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4976198L name="RecipientParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4976208L name="BusinessScope" type="(u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x496c940L name="MessageHeader" type="(u'BusinessDocumentMessageHeader', u'http://sap.com/xi/IS-U/Global2')" />
+ }
+02/17/2018 05:39:20 PM push: (<suds.resolver.Frame instance at 0x000000000475D7C8>)
+<suds.resolver.Frame instance at 0x000000000475D7C8>
+02/17/2018 05:39:20 PM created - node:
+<MessageHeader/>
+02/17/2018 05:39:20 PM ending content:
+(Content){
+   tag = "MessageHeader"
+   value = "<UUID>1518869360216</UUID>
+<CreationDateTime>2018-02-17T12:09:20Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+"
+   real = <Complex:0x42f8c18L name="BusinessDocumentMessageHeader">
+   <Sequence:0x42f8eb8L>
+      <Element:0x42f8fd0L name="ID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x42f8dd8L name="UUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x42f8be0L name="ReferenceID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x40225c0L name="ReferenceUUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4022630L name="CreationDateTime" type="(u'dateTime', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4022748L name="TestDataIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4022710L name="ReconciliationIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4976048L name="SenderBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x49760b8L name="RecipientBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4976128L name="SenderParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4976198L name="RecipientParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4976208L name="BusinessScope" type="(u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x496c940L name="MessageHeader" type="(u'BusinessDocumentMessageHeader', u'http://sap.com/xi/IS-U/Global2')" />
+   ancestry[] = <empty>
+ }
+02/17/2018 05:39:20 PM pop: (<suds.resolver.Frame instance at 0x000000000475D7C8>)
+
+02/17/2018 05:39:20 PM processing:
+(Content){
+   tag = "UtilitiesDevice"
+   value = "<ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+"
+   real = <Complex:0x496c860L name="UtilsDvceERPSmrtMtrCrteReqUtilsDvce">
+   <Sequence:0x496ca58L>
+      <Element:0x496cb00L name="ID" type="(u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x496cb70L name="StartDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x496cbe0L name="EndDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x496cc50L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x496ccc0L name="MaterialID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x496cd30L name="ProductUniqueItemID" type="(u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x496cda0L name="IndividualMaterialManufacturerInformation" type="(u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x496ce10L name="SmartMeter" type="(u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x496c9b0L name="UtilitiesDevice" type="(u'UtilsDvceERPSmrtMtrCrteReqUtilsDvce', u'http://sap.com/xi/IS-U/Global2')" />
+ }
+02/17/2018 05:39:20 PM starting content:
+(Content){
+   tag = "UtilitiesDevice"
+   value = "<ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+"
+   real = <Complex:0x496c860L name="UtilsDvceERPSmrtMtrCrteReqUtilsDvce">
+   <Sequence:0x496ca58L>
+      <Element:0x496cb00L name="ID" type="(u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x496cb70L name="StartDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x496cbe0L name="EndDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x496cc50L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x496ccc0L name="MaterialID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x496cd30L name="ProductUniqueItemID" type="(u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x496cda0L name="IndividualMaterialManufacturerInformation" type="(u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x496ce10L name="SmartMeter" type="(u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x496c9b0L name="UtilitiesDevice" type="(u'UtilsDvceERPSmrtMtrCrteReqUtilsDvce', u'http://sap.com/xi/IS-U/Global2')" />
+ }
+02/17/2018 05:39:20 PM push: (<suds.resolver.Frame instance at 0x000000000475DB48>)
+<suds.resolver.Frame instance at 0x000000000475DB48>
+02/17/2018 05:39:20 PM created - node:
+<UtilitiesDevice/>
+02/17/2018 05:39:20 PM ending content:
+(Content){
+   tag = "UtilitiesDevice"
+   value = "<ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+"
+   real = <Complex:0x496c860L name="UtilsDvceERPSmrtMtrCrteReqUtilsDvce">
+   <Sequence:0x496ca58L>
+      <Element:0x496cb00L name="ID" type="(u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x496cb70L name="StartDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x496cbe0L name="EndDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x496cc50L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x496ccc0L name="MaterialID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x496cd30L name="ProductUniqueItemID" type="(u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x496cda0L name="IndividualMaterialManufacturerInformation" type="(u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x496ce10L name="SmartMeter" type="(u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x496c9b0L name="UtilitiesDevice" type="(u'UtilsDvceERPSmrtMtrCrteReqUtilsDvce', u'http://sap.com/xi/IS-U/Global2')" />
+   ancestry[] = <empty>
+ }
+02/17/2018 05:39:20 PM pop: (<suds.resolver.Frame instance at 0x000000000475DB48>)
+
+02/17/2018 05:39:20 PM message for 'UtilitiesDeviceERPSmartMeterCreateRequest_In' created: 26 (ms)
+02/17/2018 05:39:20 PM sending to (http://ral-skeena.itronhdc.com:8000/V1/IEESAPAdapter)
+message:
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:ns0="http://sap.com/xi/SAPGlobal20/Global" xmlns:ns1="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <ns1:Body>
+      <ns0:UtilitiesDeviceERPSmartMeterCreateRequest>
+         <MessageHeader><UUID>1518869360216</UUID>
+<CreationDateTime>2018-02-17T12:09:20Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+</MessageHeader>
+         <UtilitiesDevice><ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+</UtilitiesDevice>
+      </ns0:UtilitiesDeviceERPSmartMeterCreateRequest>
+   </ns1:Body>
+</SOAP-ENV:Envelope>
+02/17/2018 05:39:20 PM headers = {'SOAPAction': u'"UtilitiesDeviceERPSmartMeterCreateRequest_In"', 'Content-Type': 'text/xml; charset=utf-8'}
+02/17/2018 05:39:20 PM sending:
+URL:http://ral-skeena.itronhdc.com:8000/V1/IEESAPAdapter
+HEADERS: {'SOAPAction': u'"UtilitiesDeviceERPSmartMeterCreateRequest_In"', 'Content-Type': 'text/xml; charset=utf-8', 'Content-type': 'text/xml; charset=utf-8', 'Soapaction': u'"UtilitiesDeviceERPSmartMeterCreateRequest_In"'}
+MESSAGE:
+<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:ns0="http://sap.com/xi/SAPGlobal20/Global" xmlns:ns1="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><ns1:Body><ns0:UtilitiesDeviceERPSmartMeterCreateRequest><MessageHeader><UUID>1518869360216</UUID>
+<CreationDateTime>2018-02-17T12:09:20Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+</MessageHeader><UtilitiesDevice><ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+</UtilitiesDevice></ns0:UtilitiesDeviceERPSmartMeterCreateRequest></ns1:Body></SOAP-ENV:Envelope>
+02/17/2018 05:39:20 PM received:
+CODE: 200
+HEADERS: {'date': 'Sat, 17 Feb 2018 12:09:20 GMT', 'content-length': '0', 'connection': 'close', 'server': 'Microsoft-HTTPAPI/2.0'}
+MESSAGE:
+
+02/17/2018 05:39:20 PM http succeeded:
+
+02/17/2018 05:39:20 PM method 'UtilitiesDeviceERPSmartMeterCreateRequest_In' invoked: 531 (ms)
+02/17/2018 10:40:07 PM Changing directory
+02/17/2018 10:40:07 PM Loading the input excel file
+02/17/2018 10:40:07 PM searching schema for (ns0:UtilsDvceERPSmrtMtrCrteReqMsg)
+02/17/2018 10:40:07 PM ('UtilsDvceERPSmrtMtrCrteReqMsg', http://sap.com/xi/IS-U/Global2), found as: <Complex:0x4070668L name="UtilsDvceERPSmrtMtrCrteReqMsg" />
+02/17/2018 10:40:07 PM found (ns0:UtilsDvceERPSmrtMtrCrteReqMsg) as (<Complex:0x4070668L name="UtilsDvceERPSmrtMtrCrteReqMsg" />)
+02/17/2018 10:40:07 PM Element:0x4260c88L, resolving: (u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x44b8848L"
+   ref[] = 
+      "BusinessDocumentMessageID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4260c88L name="ID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4260eb8L name="BusinessDocumentMessageID" />
+02/17/2018 10:40:07 PM Element:0x4260be0L, resolving: (u'UUID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x3d79bc8L"
+   ref[] = 
+      "UUID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4260be0L name="UUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'UUID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x407e240L name="UUID" />
+02/17/2018 10:40:07 PM Element:0x4260fd0L, resolving: (u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x3d79a08L"
+   ref[] = 
+      "BusinessDocumentMessageID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4260fd0L name="ReferenceID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4260eb8L name="BusinessDocumentMessageID" />
+02/17/2018 10:40:07 PM Element:0x4260da0L, resolving: (u'UUID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f208L"
+   ref[] = 
+      "UUID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4260da0L name="ReferenceUUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'UUID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x407e240L name="UUID" />
+02/17/2018 10:40:07 PM Element:0x3f45748L, resolving: (u'dateTime', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f288L"
+   ref[] = 
+      "dateTime",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x3f45748L name="CreationDateTime" type="(u'dateTime', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM TypeQuery:0x4f5f288L, found builtin (dateTime)
+02/17/2018 10:40:07 PM Element:0x3f45668L, resolving: (u'boolean', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f288L"
+   ref[] = 
+      "boolean",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x3f45668L name="TestDataIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM TypeQuery:0x4f5f288L, found builtin (boolean)
+02/17/2018 10:40:07 PM Element:0x3f45630L, resolving: (u'boolean', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f288L"
+   ref[] = 
+      "boolean",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x3f45630L name="ReconciliationIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM TypeQuery:0x4f5f288L, found builtin (boolean)
+02/17/2018 10:40:07 PM Element:0x3f456a0L, resolving: (u'token', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f288L"
+   ref[] = 
+      "token",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x3f456a0L name="SenderBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM TypeQuery:0x4f5f288L, found builtin (token)
+02/17/2018 10:40:07 PM Element:0x407e080L, resolving: (u'token', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f288L"
+   ref[] = 
+      "token",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x407e080L name="RecipientBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM TypeQuery:0x4f5f288L, found builtin (token)
+02/17/2018 10:40:07 PM Element:0x407e0f0L, resolving: (u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5fa08L"
+   ref[] = 
+      "BusinessDocumentMessageHeaderParty",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x407e0f0L name="SenderParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x407e358L name="BusinessDocumentMessageHeaderParty" />
+02/17/2018 10:40:07 PM Element:0x407e780L, resolving: (u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f9c8L"
+   ref[] = 
+      "PartyInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x407e780L name="InternalID" type="(u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x407e5c0L name="PartyInternalID" />
+02/17/2018 10:40:07 PM Element:0x407e7f0L, resolving: (u'PartyStandardID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f648L"
+   ref[] = 
+      "PartyStandardID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x407e7f0L name="StandardID" type="(u'PartyStandardID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'PartyStandardID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x407e8d0L name="PartyStandardID" />
+02/17/2018 10:40:07 PM Element:0x407e860L, resolving: (u'BusinessDocumentMessageHeaderPartyContactPerson', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f648L"
+   ref[] = 
+      "BusinessDocumentMessageHeaderPartyContactPerson",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x407e860L name="ContactPerson" type="(u'BusinessDocumentMessageHeaderPartyContactPerson', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'BusinessDocumentMessageHeaderPartyContactPerson', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x407e9e8L name="BusinessDocumentMessageHeaderPartyContactPerson" />
+02/17/2018 10:40:07 PM Element:0x407ed30L, resolving: (u'ContactPersonInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f188L"
+   ref[] = 
+      "ContactPersonInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x407ed30L name="InternalID" type="(u'ContactPersonInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'ContactPersonInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x407ebe0L name="ContactPersonInternalID" />
+02/17/2018 10:40:07 PM Element:0x407eda0L, resolving: (u'string', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f908L"
+   ref[] = 
+      "string",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x407eda0L name="OrganisationFormattedName" type="(u'string', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM TypeQuery:0x4f5f908L, found builtin (string)
+02/17/2018 10:40:07 PM Element:0x407ee10L, resolving: (u'string', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f408L"
+   ref[] = 
+      "string",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x407ee10L name="PersonFormattedName" type="(u'string', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM TypeQuery:0x4f5f408L, found builtin (string)
+02/17/2018 10:40:07 PM Element:0x407ee80L, resolving: (u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f408L"
+   ref[] = 
+      "PhoneNumber",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x407ee80L name="PhoneNumber" type="(u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x407efd0L name="PhoneNumber" />
+02/17/2018 10:40:07 PM Element:0x407eef0L, resolving: (u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f408L"
+   ref[] = 
+      "PhoneNumber",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x407eef0L name="FaxNumber" type="(u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'PhoneNumber', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x407efd0L name="PhoneNumber" />
+02/17/2018 10:40:07 PM Element:0x407ef60L, resolving: (u'EmailURI', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f408L"
+   ref[] = 
+      "EmailURI",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x407ef60L name="EmailURI" type="(u'EmailURI', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'EmailURI', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4079588L name="EmailURI" />
+02/17/2018 10:40:07 PM Element:0x407e160L, resolving: (u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f408L"
+   ref[] = 
+      "BusinessDocumentMessageHeaderParty",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x407e160L name="RecipientParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x407e358L name="BusinessDocumentMessageHeaderParty" />
+02/17/2018 10:40:07 PM Element:0x407e1d0L, resolving: (u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4f5f408L"
+   ref[] = 
+      "BusinessScope",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x407e1d0L name="BusinessScope" type="(u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'BusinessScope', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x40796a0L name="BusinessScope" />
+02/17/2018 10:40:07 PM Element:0x4070ac8L, resolving: (u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4fe4688L"
+   ref[] = 
+      "UtilitiesDeviceID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4070ac8L name="ID" type="(u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x405d7b8L name="UtilitiesDeviceID" />
+02/17/2018 10:40:07 PM Element:0x4070b38L, resolving: (u'date', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4fe4088L"
+   ref[] = 
+      "date",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4070b38L name="StartDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM TypeQuery:0x4fe4088L, found builtin (date)
+02/17/2018 10:40:07 PM Element:0x4070ba8L, resolving: (u'date', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4fe4088L"
+   ref[] = 
+      "date",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4070ba8L name="EndDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM TypeQuery:0x4fe4088L, found builtin (date)
+02/17/2018 10:40:07 PM Element:0x4070c18L, resolving: (u'token', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4fe4088L"
+   ref[] = 
+      "token",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4070c18L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM TypeQuery:0x4fe4088L, found builtin (token)
+02/17/2018 10:40:07 PM Element:0x4070c88L, resolving: (u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4fe4088L"
+   ref[] = 
+      "ProductInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4070c88L name="MaterialID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x40709e8L name="ProductInternalID" />
+02/17/2018 10:40:07 PM Element:0x4070cf8L, resolving: (u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4fe4148L"
+   ref[] = 
+      "ProductStandardID_V1",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4070cf8L name="ProductUniqueItemID" type="(u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4070e48L name="ProductStandardID_V1" />
+02/17/2018 10:40:07 PM Element:0x4070d68L, resolving: (u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4fe4588L"
+   ref[] = 
+      "UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4070d68L name="IndividualMaterialManufacturerInformation" type="(u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4070f60L name="UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo" />
+02/17/2018 10:40:07 PM Element:0x4068358L, resolving: (u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4fe44c8L"
+   ref[] = 
+      "PartyInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4068358L name="PartyInternalID" type="(u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'PartyInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x407e5c0L name="PartyInternalID" />
+02/17/2018 10:40:07 PM Element:0x40683c8L, resolving: (u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4fe4ec8L"
+   ref[] = 
+      "ProductInternalID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x40683c8L name="PartNumberID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x40709e8L name="ProductInternalID" />
+02/17/2018 10:40:07 PM Element:0x4068438L, resolving: (u'token', u'http://www.w3.org/2001/XMLSchema')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4fe4448L"
+   ref[] = 
+      "token",
+      "http://www.w3.org/2001/XMLSchema",
+   history[] = 
+      <Element:0x4068438L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM TypeQuery:0x4fe4448L, found builtin (token)
+02/17/2018 10:40:07 PM Element:0x4070dd8L, resolving: (u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4fe4448L"
+   ref[] = 
+      "UtilsDvceERPSmrtMtrCrteReqSmrtMtr",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4070dd8L name="SmartMeter" type="(u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x4068198L name="UtilsDvceERPSmrtMtrCrteReqSmrtMtr" />
+02/17/2018 10:40:07 PM Element:0x4068588L, resolving: (u'UtilitiesAdvancedMeteringSystemID', u'http://sap.com/xi/IS-U/Global2')
+ using:(TypeQuery){
+   id = "TypeQuery:0x4fe4288L"
+   ref[] = 
+      "UtilitiesAdvancedMeteringSystemID",
+      "http://sap.com/xi/IS-U/Global2",
+   history[] = 
+      <Element:0x4068588L name="UtilitiesAdvancedMeteringSystemID" type="(u'UtilitiesAdvancedMeteringSystemID', u'http://sap.com/xi/IS-U/Global2')" />,
+   resolved = False
+ }
+02/17/2018 10:40:07 PM (u'UtilitiesAdvancedMeteringSystemID', u'http://sap.com/xi/IS-U/Global2'), found as: <Complex:0x405da90L name="UtilitiesAdvancedMeteringSystemID" />
+02/17/2018 10:40:07 PM ns0:UtilsDvceERPSmrtMtrCrteReqMsg created: 42 (ms)
+02/17/2018 10:40:07 PM (u'UtilitiesDeviceERPSmartMeterCreateRequest', u'http://sap.com/xi/SAPGlobal20/Global'), found as: <Element:0x3f2a9e8L name="UtilitiesDeviceERPSmartMeterCreateRequest" type="(u'UtilsDvceERPSmrtMtrCrteReqMsg', u'http://sap.com/xi/IS-U/Global2')" />
+02/17/2018 10:40:07 PM (u'UtilitiesDeviceERPSmartMeterCreateRequest', u'http://sap.com/xi/SAPGlobal20/Global'), found as: <Element:0x3f2a9e8L name="UtilitiesDeviceERPSmartMeterCreateRequest" type="(u'UtilsDvceERPSmrtMtrCrteReqMsg', u'http://sap.com/xi/IS-U/Global2')" />
+02/17/2018 10:40:07 PM processing:
+(Content){
+   tag = "MessageHeader"
+   value = "<UUID>1518887407370</UUID>
+<CreationDateTime>2018-02-17T17:10:07Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+"
+   real = <Complex:0x4260ef0L name="BusinessDocumentMessageHeader">
+   <Sequence:0x4260cf8L>
+      <Element:0x4260c88L name="ID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4260be0L name="UUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4260fd0L name="ReferenceID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4260da0L name="ReferenceUUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x3f45748L name="CreationDateTime" type="(u'dateTime', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x3f45668L name="TestDataIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x3f45630L name="ReconciliationIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x3f456a0L name="SenderBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x407e080L name="RecipientBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x407e0f0L name="SenderParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x407e160L name="RecipientParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x407e1d0L name="BusinessScope" type="(u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x4070908L name="MessageHeader" type="(u'BusinessDocumentMessageHeader', u'http://sap.com/xi/IS-U/Global2')" />
+ }
+02/17/2018 10:40:07 PM starting content:
+(Content){
+   tag = "MessageHeader"
+   value = "<UUID>1518887407370</UUID>
+<CreationDateTime>2018-02-17T17:10:07Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+"
+   real = <Complex:0x4260ef0L name="BusinessDocumentMessageHeader">
+   <Sequence:0x4260cf8L>
+      <Element:0x4260c88L name="ID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4260be0L name="UUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4260fd0L name="ReferenceID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4260da0L name="ReferenceUUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x3f45748L name="CreationDateTime" type="(u'dateTime', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x3f45668L name="TestDataIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x3f45630L name="ReconciliationIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x3f456a0L name="SenderBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x407e080L name="RecipientBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x407e0f0L name="SenderParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x407e160L name="RecipientParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x407e1d0L name="BusinessScope" type="(u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x4070908L name="MessageHeader" type="(u'BusinessDocumentMessageHeader', u'http://sap.com/xi/IS-U/Global2')" />
+ }
+02/17/2018 10:40:07 PM push: (<suds.resolver.Frame instance at 0x000000000501F9C8>)
+<suds.resolver.Frame instance at 0x000000000501F9C8>
+02/17/2018 10:40:07 PM created - node:
+<MessageHeader/>
+02/17/2018 10:40:07 PM ending content:
+(Content){
+   tag = "MessageHeader"
+   value = "<UUID>1518887407370</UUID>
+<CreationDateTime>2018-02-17T17:10:07Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+"
+   real = <Complex:0x4260ef0L name="BusinessDocumentMessageHeader">
+   <Sequence:0x4260cf8L>
+      <Element:0x4260c88L name="ID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4260be0L name="UUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4260fd0L name="ReferenceID" type="(u'BusinessDocumentMessageID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4260da0L name="ReferenceUUID" type="(u'UUID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x3f45748L name="CreationDateTime" type="(u'dateTime', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x3f45668L name="TestDataIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x3f45630L name="ReconciliationIndicator" type="(u'boolean', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x3f456a0L name="SenderBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x407e080L name="RecipientBusinessSystemID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x407e0f0L name="SenderParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x407e160L name="RecipientParty" type="(u'BusinessDocumentMessageHeaderParty', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x407e1d0L name="BusinessScope" type="(u'BusinessScope', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x4070908L name="MessageHeader" type="(u'BusinessDocumentMessageHeader', u'http://sap.com/xi/IS-U/Global2')" />
+   ancestry[] = <empty>
+ }
+02/17/2018 10:40:07 PM pop: (<suds.resolver.Frame instance at 0x000000000501F9C8>)
+
+02/17/2018 10:40:07 PM processing:
+(Content){
+   tag = "UtilitiesDevice"
+   value = "<ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+"
+   real = <Complex:0x4070828L name="UtilsDvceERPSmrtMtrCrteReqUtilsDvce">
+   <Sequence:0x4070a20L>
+      <Element:0x4070ac8L name="ID" type="(u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4070b38L name="StartDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4070ba8L name="EndDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4070c18L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4070c88L name="MaterialID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4070cf8L name="ProductUniqueItemID" type="(u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4070d68L name="IndividualMaterialManufacturerInformation" type="(u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4070dd8L name="SmartMeter" type="(u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x4070978L name="UtilitiesDevice" type="(u'UtilsDvceERPSmrtMtrCrteReqUtilsDvce', u'http://sap.com/xi/IS-U/Global2')" />
+ }
+02/17/2018 10:40:07 PM starting content:
+(Content){
+   tag = "UtilitiesDevice"
+   value = "<ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+"
+   real = <Complex:0x4070828L name="UtilsDvceERPSmrtMtrCrteReqUtilsDvce">
+   <Sequence:0x4070a20L>
+      <Element:0x4070ac8L name="ID" type="(u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4070b38L name="StartDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4070ba8L name="EndDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4070c18L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4070c88L name="MaterialID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4070cf8L name="ProductUniqueItemID" type="(u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4070d68L name="IndividualMaterialManufacturerInformation" type="(u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4070dd8L name="SmartMeter" type="(u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x4070978L name="UtilitiesDevice" type="(u'UtilsDvceERPSmrtMtrCrteReqUtilsDvce', u'http://sap.com/xi/IS-U/Global2')" />
+ }
+02/17/2018 10:40:07 PM push: (<suds.resolver.Frame instance at 0x000000000407BBC8>)
+<suds.resolver.Frame instance at 0x000000000407BBC8>
+02/17/2018 10:40:07 PM created - node:
+<UtilitiesDevice/>
+02/17/2018 10:40:07 PM ending content:
+(Content){
+   tag = "UtilitiesDevice"
+   value = "<ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+"
+   real = <Complex:0x4070828L name="UtilsDvceERPSmrtMtrCrteReqUtilsDvce">
+   <Sequence:0x4070a20L>
+      <Element:0x4070ac8L name="ID" type="(u'UtilitiesDeviceID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4070b38L name="StartDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4070ba8L name="EndDate" type="(u'date', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4070c18L name="SerialID" type="(u'token', u'http://www.w3.org/2001/XMLSchema')" />
+      <Element:0x4070c88L name="MaterialID" type="(u'ProductInternalID', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4070cf8L name="ProductUniqueItemID" type="(u'ProductStandardID_V1', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4070d68L name="IndividualMaterialManufacturerInformation" type="(u'UtilsDvceERPSmrtMtrCrteReqIndivMatlMfrInfo', u'http://sap.com/xi/IS-U/Global2')" />
+      <Element:0x4070dd8L name="SmartMeter" type="(u'UtilsDvceERPSmrtMtrCrteReqSmrtMtr', u'http://sap.com/xi/IS-U/Global2')" />
+   </Sequence>
+</Complex>
+   type = <Element:0x4070978L name="UtilitiesDevice" type="(u'UtilsDvceERPSmrtMtrCrteReqUtilsDvce', u'http://sap.com/xi/IS-U/Global2')" />
+   ancestry[] = <empty>
+ }
+02/17/2018 10:40:07 PM pop: (<suds.resolver.Frame instance at 0x000000000407BBC8>)
+
+02/17/2018 10:40:07 PM message for 'UtilitiesDeviceERPSmartMeterCreateRequest_In' created: 24 (ms)
+02/17/2018 10:40:07 PM sending to (http://ral-skeena.itronhdc.com:8000/V1/IEESAPAdapter)
+message:
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:ns0="http://sap.com/xi/SAPGlobal20/Global" xmlns:ns1="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <ns1:Body>
+      <ns0:UtilitiesDeviceERPSmartMeterCreateRequest>
+         <MessageHeader><UUID>1518887407370</UUID>
+<CreationDateTime>2018-02-17T17:10:07Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+</MessageHeader>
+         <UtilitiesDevice><ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+</UtilitiesDevice>
+      </ns0:UtilitiesDeviceERPSmartMeterCreateRequest>
+   </ns1:Body>
+</SOAP-ENV:Envelope>
+02/17/2018 10:40:07 PM headers = {'SOAPAction': u'"UtilitiesDeviceERPSmartMeterCreateRequest_In"', 'Content-Type': 'text/xml; charset=utf-8'}
+02/17/2018 10:40:07 PM sending:
+URL:http://ral-skeena.itronhdc.com:8000/V1/IEESAPAdapter
+HEADERS: {'SOAPAction': u'"UtilitiesDeviceERPSmartMeterCreateRequest_In"', 'Content-Type': 'text/xml; charset=utf-8', 'Content-type': 'text/xml; charset=utf-8', 'Soapaction': u'"UtilitiesDeviceERPSmartMeterCreateRequest_In"'}
+MESSAGE:
+<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:ns0="http://sap.com/xi/SAPGlobal20/Global" xmlns:ns1="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><ns1:Body><ns0:UtilitiesDeviceERPSmartMeterCreateRequest><MessageHeader><UUID>1518887407370</UUID>
+<CreationDateTime>2018-02-17T17:10:07Z</CreationDateTime>
+<SenderBusinessSystemID>I210</SenderBusinessSystemID>
+</MessageHeader><UtilitiesDevice><ID>AutoMeter_010</ID>
+<StartDate>2000-01-01</StartDate>
+<EndDate>9999-12-31</EndDate>
+<SerialID>SAutoMeter_010</SerialID>
+<MaterialID>MAutoMeter_010</MaterialID>
+<ProductUniqueItemID>PAutoMeter_010</ProductUniqueItemID>
+<SmartMeter>
+<UtilitiesAdvancedMeteringSystemID>I210</UtilitiesAdvancedMeteringSystemID>
+</SmartMeter>
+</UtilitiesDevice></ns0:UtilitiesDeviceERPSmartMeterCreateRequest></ns1:Body></SOAP-ENV:Envelope>
+02/17/2018 10:40:07 PM received:
+CODE: 200
+HEADERS: {'date': 'Sat, 17 Feb 2018 17:10:07 GMT', 'content-length': '0', 'connection': 'close', 'server': 'Microsoft-HTTPAPI/2.0'}
+MESSAGE:
+
+02/17/2018 10:40:07 PM http succeeded:
+
+02/17/2018 10:40:07 PM method 'UtilitiesDeviceERPSmartMeterCreateRequest_In' invoked: 470 (ms)
